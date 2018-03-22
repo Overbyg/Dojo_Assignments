@@ -1,0 +1,16 @@
+body,html{
+    margin: 0;
+}
+.wrapper{
+    background: #ededed;
+    text-align: center;
+    padding: 32px;
+}
+img{
+    width: 100%;
+}
+.block{
+    width: 200px;
+    height: 200px;
+    display: inline-block;
+}
