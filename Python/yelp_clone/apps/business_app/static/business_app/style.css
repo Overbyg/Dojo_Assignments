@@ -1,0 +1,232 @@
+
+/* --------------------- bus_results.html ---------- Business Results Page-------------------------  */
+/* BASE HEX CODE COLOR: #49A554 */
+
+
+* {
+    padding: 0px;
+    margin: 0px;
+}
+
+.ib{
+    display: inline-block;
+}
+
+#wrapper {
+    width: auto;
+    height: auto !important;
+    background-image: url("https://wallpaperstudio10.com/static/wpdb/wallpapers/1920x1080/169337.jpg");
+    background-color: #f5f5f5;
+    background-size: cover;
+}
+
+#wrapper2 {
+    height: auto !important;
+    background-image: url("http://awesomeocean.com/wp-content/uploads/2016/11/feature-credit-NRDC-via-Flickr.jpg");
+    background-size: cover;
+    max-width: 100%;
+}
+
+#wrapper3 {
+    height: auto !important;
+    background-image: url("http://fc01.deviantart.net/fs70/f/2010/199/1/0/The_Kelp_Forest_by_FranceHopper.jpg");
+    background-size: cover;
+    max-width: 100%;
+}
+
+
+.anchor_tag {
+    color: red;
+    text-decoration: none;
+}
+
+.bg-red {
+    background-color: rgb(177, 44, 44);
+}
+
+.logreg {
+    /* margin-left: 800px; */
+    /* padding-top: 10px; */
+    margin-right: 10px;
+    vertical-align: middle;
+    /* margin-bottom: -20px; */
+}
+.logreg > img{
+    width: 100px;
+    vertical-align: middle;
+}
+.logreg > a { 
+    text-decoration: none;
+    text-decoration-line: none;
+}
+
+#business_data {
+    display: inline-block;
+    margin: 25px 10px 10px 25px;
+    background-color: white;
+    border: 1px ridge #ccc;
+    padding: 10px;
+    width: 30%;
+    vertical-align: bottom;
+}
+
+#business_data > img {
+    text-align: center;
+    padding-left: 5px;
+    width: 99%;
+    margin-bottom: 5px;
+}
+
+#business_data p, h5{
+    margin: 0px;
+    display: inline;
+}
+#business_data h4{
+    margin-top: 10px;
+}
+
+#footer {
+    /* position: absolute; */
+    right: 0;
+    bottom: 0;
+    left: 0;
+    text-align: center;
+    background-color: white;
+}
+
+#userImgs {
+    display: inline-block;
+    width: 65%;
+    margin: 25px 0px 0px 0px;  
+    text-align: center;
+    vertical-align: bottom;
+}
+
+.imgSpread {
+    display: inline-block;
+    width: 31%;
+    margin: 1%;
+}
+
+.imgThumbs {
+    width: 10%;
+    margin: 2px;
+}
+
+.imgThumbsBig {
+    width: 50% !important;
+    margin: 2px;
+    text-align: center !important;
+    margin: auto;
+    display: block;
+}
+
+.comments {
+    margin: 25px;
+    border: solid 1px #182A53;
+    padding: 10px;
+    background-color: rgba(190, 206, 231, 0.356);
+    border-radius: 15px;
+}
+
+.comments2 {
+    margin: 25px;
+    border: solid 1px rgb(24, 83, 37);
+    padding: 5px;
+    background-color: rgba(251, 255, 252, 0.479);
+    border-radius: 15px;
+}
+
+
+.comments > h2 {
+    color: #7B1E19;
+}
+
+.posting {
+    width: 50%;
+    margin: auto;
+    margin-bottom: 10px;
+    border: black solid 2px;
+    /* background-color: rgba(87, 158, 52, 0.767); */
+    background-color: rgba(146, 168, 205, 0.534);
+    border-radius: 15px;
+}
+
+.posting > p{
+    padding: 10px;
+}
+.busProfThumb {
+    width: 10%;
+    border-radius: 2px;
+    margin: 10px;
+    vertical-align: top;
+}
+
+.info {
+    width: 30%;
+    margin-right: 30%;
+    margin-top: 10px;
+    vertical-align: top;
+
+}
+
+.redText {
+    color: #7B1E19;
+}
+
+.address {
+    width: 20%;
+    margin: 10px;
+}
+/* --------------------- new_bus.html ---------- Add New Business Page-------------------------  */
+
+* {
+    padding: 0px;
+    margin: 0px;
+}
+    
+#add_bus_form {
+    margin: 15px;
+}
+
+.form_adjust{
+    margin-top: 15px;
+    display: block;
+}
+#tablehead {
+    background-color: #92A4CD;
+}
+
+#header {
+    background-color: #182A53 !important;
+    color: white;
+}
+
+.nav-link  {
+    color: white !important;
+}
+
+th {
+    color: #150D34;
+}
+
+.messages{
+    color: red;
+    list-style: none;
+}
+
+/* --------------------- write_review.html ---------- Write a Review for a Business Page-------------------------  */
+
+#review_form > h3{
+    color: white;
+    margin: 50px auto;
+    text-align: center;
+}
+
+#review_form {
+    margin: 50px 775px;
+}
+
+.submit_seal {
+    width: 75px;
+}
